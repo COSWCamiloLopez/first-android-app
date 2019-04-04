@@ -14,6 +14,7 @@
         android:layout_marginLeft="96dp"
         android:layout_marginTop="200dp"
         android:ems="10"
+        android:hint="@string/label_username"
         android:inputType="textPersonName"
         android:text="Username"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,7 +24,8 @@
         android:id="@+id/button"
         android:layout_width="139dp"
         android:layout_height="wrap_content"
-        android:text="Sign In"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="267dp" />
+        android:layout_marginTop="36dp"
+        android:text="@string/button_signin"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        tools:layout_editor_absoluteX="136dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
