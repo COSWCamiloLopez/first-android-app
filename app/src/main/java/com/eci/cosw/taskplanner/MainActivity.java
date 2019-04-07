@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
      * Called when the user taps the Send button
      */
     public void sendMessage(View view) {
-        Intent intent = new Intent(this, TaskActivity.class);
+        Intent intent = new Intent(this, DisplayMessage.class);
         EditText editText = (EditText) findViewById(R.id.editText);
         String message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
